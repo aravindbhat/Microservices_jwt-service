@@ -1,0 +1,1 @@
+sudo docker run --env-file local.env --network=host -8080:8080 jwt-service:1.0
