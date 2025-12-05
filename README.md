@@ -13,7 +13,7 @@ To run this image using docker, 2 parameters needs to be passed in the docker co
 If local.env file is in .gitignore and not present in the github repository,
 Then the env file with database credentials needs to be passed as shown below
 
-**sudo docker run --env-file <ENV FILENAME> -p <PORT>:<PORT> <IMAGE>**
+**docker run --env-file <ENV FILENAME> -p <PORT>:<PORT> <IMAGE>**
 example:
 **docker run --env-file local.env -p 8080:8080 jwt-service:1.0**
  
